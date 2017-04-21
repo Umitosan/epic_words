@@ -1,8 +1,6 @@
 # EpicWords
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/epic_words`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This application will tell the user whether two words are palindromes, anagrams, or 'antigrams'. It will also generate anagrams for a given word. It relies upon the [`epic_anagram` gem](https://github.com/tenebrousedge/epic_anagram), and the anagram generation will likely fail on Windows systems due to `/usr/share/dict/words` not being present.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `ruby app.rb` and open `localhost:4567` in your web browser. Note that finding palindromes for a word takes several seconds.
 
 ## Development
 
@@ -32,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/epic_words.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tenebrousedge/epic_words.
 
 
 ## License

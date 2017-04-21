@@ -1,0 +1,26 @@
+<div class="container">
+  <section>
+    <h3>Compare Two Words</h3>
+  	<form action="/compare" method="post">
+  	<input type="text" name="word1" />
+  	<input type="text" name="word2" />
+  	<button type="submit">Submit</button>
+  	</form>
+  </section>
+  <section>
+    <h3>Find Anagrams</h3>
+    <form action="/anagrams" method="post">
+    <input type="text" name="anagram" />
+    <button type="submit">Submit</button>
+    </section>
+  <section>
+  	<%= @result %>
+  	<% if @anagrams %>
+  		<ul>
+	  	<% @anagrams.each do |a| %>
+	  		<li> <%= a %></li>
+	  	<% end %>
+	  	</ul>
+  	<% end %>
+  </section>
+</div>

@@ -22,7 +22,7 @@ class EpicWords
   end
 
   def are_palindromes?(first, second)
-    first.reverse == second
+    first.reverse == first && second.reverse == second
   end
 
   def are_anagrams?(*args)

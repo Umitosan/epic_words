@@ -19,8 +19,8 @@ end
 
 post('/compare') do
   @ew ||= EpicWords.new
-  word1 = params.fetch('word1')
-  word2 = params.fetch('word2')
+  @word1 = params.fetch('word1')
+  @word2 = params.fetch('word2')
   @result = @ew.compare(@word1, @word2)
   erb(:index)
 end
@@ -28,5 +28,6 @@ end
 post ('/anagrams') do
   @ew ||= EpicWords.new
   @word = params.fetch('anagram')
-  @result = @ew.anagrams(@word)
+  @anagrams = @ew.anagrams(@word)
+  erb(:index)
 end
