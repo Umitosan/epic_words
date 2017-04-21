@@ -1,6 +1,5 @@
 require 'epic_anagram'
 require 'set'
-require 'pry'
 
 class EpicWords
   def compare(first, second)
