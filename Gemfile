@@ -1,4 +1,12 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in epic_words.gemspec
+gem 'sinatra'
+gem 'capybara'
+
+group :development do
+  gem 'pry'
+  gem 'sinatra-contrib'
+end
 gemspec
+
+gem "epic_anagram", :git => 'git@github.com:tenebrousedge/epic_anagram.git'
