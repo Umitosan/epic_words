@@ -9,4 +9,4 @@ group :development do
 end
 gemspec
 
-gem "epic_anagram", :git => 'git@github.com:tenebrousedge/epic_anagram.git'
+gem "epic_anagram", :git => 'https://github.com:tenebrousedge/epic_anagram.git'
