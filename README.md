@@ -22,6 +22,8 @@ Or install it yourself as:
 
 Run `ruby app.rb` and open `localhost:4567` in your web browser. Note that finding palindromes for a word takes several seconds.
 
+The app is also (for the time being) available at: [https://sheltered-mountain-52011.herokuapp.com/]
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
