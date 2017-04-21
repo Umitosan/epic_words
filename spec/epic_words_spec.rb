@@ -8,7 +8,7 @@ RSpec.describe EpicWords do
     end
 
     it 'if given two anagrams, return a string which says they are anagrams' do
-      expect(words.compare('cat', 'act')).to match(/are anagrams/)
+      expect(words.compare('cat', 'act,')).to match(/are anagrams/)
     end
 
     it 'if given two valid words which are not anagrams, return a string message to that effect' do
@@ -28,7 +28,7 @@ RSpec.describe EpicWords do
     end
 
     it 'will match multiple words as being antigrams or anagrams' do
-      expect(words.compare('Internet Anagram Server', 'I, Rearrangement Servant')).to match('/are anagrams/')
+      expect(words.compare('Internet Anagram Server', 'I, Rearrangement Servant')).to match(/are anagrams/)
     end
   end
 end
