@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:tenebrousedge/epic_anagram.git
+  remote: https://github.com/tenebrousedge/epic_anagram.git
   revision: 29a9335e8501cd6d19a91115992bb8313df6a4ed
   specs:
     epic_anagram (0.1.0)
